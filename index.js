@@ -13,4 +13,4 @@ const censor = (cens, string) => {
 
 const violenceCensor = (string) => censor('violence', string)
 
-const drugsCensor = () => censor(null, 'drugs')
+const drugsCensor = () => censor('drugs', string)
