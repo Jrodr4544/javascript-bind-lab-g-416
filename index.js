@@ -11,6 +11,6 @@ const censor = (cens, string) => {
   return string.replace(regex, 'BLEEP');
 }
 
-const violenceCensor = () => censor(null, 'violence')
+const violenceCensor = (string) => censor('violence', string)
 
 const drugsCensor = () => censor(null, 'drugs')
